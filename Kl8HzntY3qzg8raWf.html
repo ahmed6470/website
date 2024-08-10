@@ -1,0 +1,246 @@
+<html><head><base href="https://al-sakan-al-mutawwir.com/">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Al-Sakan Al-Mutawwir | Real Estate Development</title>
+<style>
+:root {
+  --primary-color: #2c3e50;
+  --secondary-color: #e67e22;
+  --text-color: #333;
+  --background-color: #f4f4f4;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  padding: 20px;
+}
+
+header {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 1rem 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo svg {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.logo-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.btn {
+  display: inline-block;
+  background: var(--secondary-color);
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #d35400;
+}
+
+#showcase {
+  background: url('https://al-sakan-al-mutawwir.com/images/showcase.jpg') no-repeat center center/cover;
+  height: 400px;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#showcase h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+#projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 40px 0;
+}
+
+.project-card {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.project-card .content {
+  padding: 20px;
+}
+
+footer {
+  background: var(--primary-color);
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+  
+  nav {
+    flex-direction: column;
+  }
+  
+  nav ul {
+    margin-top: 20px;
+  }
+}
+</style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">
+          <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <path d="M50 10 L90 90 L10 90 Z" fill="#e67e22"/>
+            <path d="M50 20 L80 80 L20 80 Z" fill="#2c3e50"/>
+            <rect x="35" y="60" width="30" height="30" fill="#fff"/>
+          </svg>
+          <span class="logo-text">Al-Sakan Al-Mutawwir</span>
+        </div>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About Us</a></li>
+          <li><a href="/projects">Our Projects</a></li>
+          <li><a href="/contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="showcase">
+    <h1>Building Dreams, Creating Homes</h1>
+    <p>Al-Sakan Al-Mutawwir: Your Trusted Real Estate Developer</p>
+    <a href="/projects" class="btn">View Our Projects</a>
+  </section>
+
+  <div class="container">
+    <section id="about-preview">
+      <h2>About Al-Sakan Al-Mutawwir</h2>
+      <p>Al-Sakan Al-Mutawwir is a leading real estate development company committed to creating innovative, sustainable, and high-quality living spaces. With years of experience and a passion for excellence, we transform visions into reality.</p>
+      <a href="/about" class="btn">Learn More</a>
+    </section>
+
+    <section id="projects">
+      <h2>Featured Projects</h2>
+      <div class="project-card">
+        <img src="https://al-sakan-al-mutawwir.com/images/project1.jpg" alt="Modern apartment complex with glass facades and green spaces" width="300" height="200">
+        <div class="content">
+          <h3>Green Valley Residences</h3>
+          <p>Luxury apartments with a focus on sustainability and modern living.</p>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="https://al-sakan-al-mutawwir.com/images/project2.jpg" alt="Sleek office building with innovative architecture" width="300" height="200">
+        <div class="content">
+          <h3>Innovation Hub</h3>
+          <p>State-of-the-art office spaces designed for the future of work.</p>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="https://al-sakan-al-mutawwir.com/images/project3.jpg" alt="Luxurious villa community surrounded by lush landscapes" width="300" height="200">
+        <div class="content">
+          <h3>Oasis Villas</h3>
+          <p>Exclusive villa community offering tranquility and luxury.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact-preview">
+      <h2>Get in Touch</h2>
+      <p>Interested in our projects or have any questions? We'd love to hear from you!</p>
+      <a href="/contact" class="btn">Contact Us</a>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 Al-Sakan Al-Mutawwir. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Add smooth scrolling to navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+
+    // Add a simple animation to the logo on hover
+    const logo = document.querySelector('.logo svg');
+    logo.addEventListener('mouseenter', () => {
+      logo.style.transform = 'scale(1.1) rotate(10deg)';
+      logo.style.transition = 'transform 0.3s ease';
+    });
+    logo.addEventListener('mouseleave', () => {
+      logo.style.transform = 'scale(1) rotate(0deg)';
+    });
+  </script>
+</body>
+</html>
